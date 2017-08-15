@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+
+    <bean id="command-handler" class="App.cmd.CommandHandlerImpl" />
+
+    <bean id="app" class="App.Main">
+        <constructor-arg ref="command-handler"/>
+    </bean>
+
+    <bean id="auth-pass" class="java.lang.String">
+        <constructor-arg value="7TOu8mVxwyH6fntEoSjS58O"/>
+    </bean>
+
+</beans>
