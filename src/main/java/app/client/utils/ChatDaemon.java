@@ -1,7 +1,6 @@
-package App.client.utils;
+package app.client.utils;
 
-import App.client.messenger.ChatConnection;
-import App.vcs.VCSListener;
+import app.client.messenger.ChatConnection;
 
 /**
  * Created by ironman on 13.08.2017.

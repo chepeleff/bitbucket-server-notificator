@@ -1,6 +1,6 @@
-package App.client.utils;
+package app.client.utils;
 
-import App.cmd.CommandHandler;
+import app.cmd.CommandHandler;
 
 /**
  * Created by ironman on 13.08.2017.

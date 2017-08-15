@@ -1,4 +1,4 @@
-package App.cmd;
+package app.cmd;
 
 /**
  * Created by ironman on 15.08.2017.

@@ -6,9 +6,9 @@
 
     <!-- bean definitions here -->
 
-    <bean id="command-handler" class="App.cmd.CommandHandlerImpl" />
+    <bean id="command-handler" class="app.cmd.CommandHandlerImpl" />
 
-    <bean id="app" class="App.Main">
+    <bean id="app" class="app.Main">
         <constructor-arg ref="command-handler"/>
     </bean>
 

@@ -1,4 +1,4 @@
-package App.vcs;
+package app.vcs;
 
 import java.util.List;
 

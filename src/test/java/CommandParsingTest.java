@@ -1,6 +1,6 @@
-import App.client.utils.ChatCommands;
-import App.cmd.ApplicationCommands;
-import App.cmd.CommandParsingTools;
+import app.client.utils.ChatCommands;
+import app.cmd.ApplicationCommands;
+import app.cmd.CommandParsingTools;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 

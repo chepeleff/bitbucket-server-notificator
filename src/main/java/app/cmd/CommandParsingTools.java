@@ -1,4 +1,4 @@
-package App.cmd;
+package app.cmd;
 
 import java.security.InvalidParameterException;
 import java.util.Arrays;
@@ -20,7 +20,7 @@ public class CommandParsingTools<T extends Commands> {
         }
         this.clazz = commandsEnum;
 
-        Arrays.stream(clazz.getEnumConstants()).forEach(cmd -> commandsMap.put(((T) cmd).toString().toLowerCase(), (T) cmd));
+        Arrays.stream(clazz.getEnumConstants()).forEach(cmd -> commandsMap.put(cmd.toString().toLowerCase(), (T) cmd));
 
         // there must be a WRONG constant in the passed enum:
         if (commandsMap.get("wrong") == null) {

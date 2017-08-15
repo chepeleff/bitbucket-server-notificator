@@ -1,6 +1,6 @@
-package App;
+package app;
 
-import App.cmd.CommandHandler;
+import app.cmd.CommandHandler;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -46,7 +46,6 @@ public class Main {
             } finally {
                 if (handler.quitRequested()) {
                     closeStream(br);
-                    break;
                 }
             }
         }

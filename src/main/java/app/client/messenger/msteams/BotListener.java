@@ -1,4 +1,4 @@
-package App.client.messenger.msteams;
+package app.client.messenger.msteams;
 
 import java.io.IOException;
 import java.net.Socket;
