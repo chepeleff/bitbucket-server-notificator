@@ -5,4 +5,5 @@ package app.client.messenger;
  */
 public interface ChatConnection {
     String readMessage();
+    void authenticate();
 }

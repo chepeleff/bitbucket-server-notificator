@@ -20,11 +20,10 @@ public class ChatDaemon extends Thread {
     @Override
     public void start() {
         setDaemon(true);
+
         while (true) {
             String message = listener.readMessage();
-            if (message.startsWith(prefix)) {
 
-            }
         }
     }
 

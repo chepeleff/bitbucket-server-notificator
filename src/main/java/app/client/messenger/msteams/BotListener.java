@@ -8,7 +8,6 @@ import java.net.Socket;
  */
 public class BotListener {
     public static void main(String[] args) throws IOException {
-        Socket socket = new Socket("localhost", 3978);
 
     }
 }
